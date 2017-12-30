@@ -1,0 +1,46 @@
+{
+  "name": "npm-stats-cli",
+  "version": "0.1.0",
+  "description": "A command line interface for npm registry statistics and insights, with flexible output methods (JSON, CSV, TSV and ASCII chart), as well as daily, monthly and yearly aggregation granularities.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node bin/index.js",
+    "publish-please": "publish-please"
+  },
+  "bin": {
+    "npm-stats": "bin/index.js"
+  },
+  "keywords": [
+    "npm",
+    "user",
+    "package",
+    "stats",
+    "statistics",
+    "command",
+    "line",
+    "cli",
+    "export",
+    "csv",
+    "tsv",
+    "charts",
+    "ascii"
+  ],
+  "author": "tobilg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tobilg/npm-stats-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobilg/npm-stats-cli.git"
+  },
+  "homepage": "https://github.com/tobilg/npm-stats-cli",
+  "devDependencies": {
+    "publish-please": "~2.3.1"
+  },
+  "dependencies": {
+    "asciichart": "^1.5.7",
+    "axios": "^0.17.1",
+    "minimist": "^1.2.0"
+  }
+}
