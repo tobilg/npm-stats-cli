@@ -23,7 +23,7 @@ $ npm-stats --help
 
 you can display the complete list of possible flags:
 
-```bash
+```text
 npm-stats usage:
 --------------------------
  
@@ -129,7 +129,7 @@ $ npm-stats --user tobilg --granularity daily --output chart --start 2017-10-01 
 
 This will output the download statistics of all of the user `tobilg`'s packages from `2017-10-01` to `2017-11-30`, aggregated to daily level, and output as ASCII chart.
 
-```bash
+```text
      296.00 ┤           ╭╮                                                  
      277.00 ┤           ││       ╭╮                                         
      258.00 ┤       ╭╮  ││       ││                                         
