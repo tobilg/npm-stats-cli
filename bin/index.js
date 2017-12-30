@@ -116,7 +116,13 @@ if (argv.hasOwnProperty("help")) {
     }
     // Make sure start date lies before the end date
     if (dateFunctions.getDateDifferenceInDays(startDate, endDate) < 0) {
-        console.log(`Error: The --start date must smaller than the --end date!`);
+        console.log("Error: The --start date must smaller than the --end date!");
+        process.exit(-1);
+    } else if (dateFunctions.getDateDifferenceInDays(startDate, endDate) > 365) {
+        console.log("Error: The --start date and the --end date must not have more than 365 days in between!");
+        process.exit(-1);
+    } else if (dateFunctions.getDateDifferenceInDays("2015-01-10" , startDate) <= 0) {
+        console.log("Error: The --start date must be greater than or equal to '2015-01-10'!");
         process.exit(-1);
     }
 
