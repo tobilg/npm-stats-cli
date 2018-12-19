@@ -1,6 +1,6 @@
 {
   "name": "npm-stats-cli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A command line interface for npm registry statistics and insights, with flexible output methods (JSON, CSV, TSV and ASCII chart), as well as daily, monthly and yearly aggregation granularities.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
