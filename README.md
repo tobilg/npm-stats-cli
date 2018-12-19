@@ -5,10 +5,10 @@ It supports flexible outputs, such as JSON, ASCII chart, CSV and TSV. Also, it c
 
 ## Installation
 
-You can install `npm-stats` as a global package in the usual way:
+You can install `npm-stats-cli` as a global package in the usual way:
 
 ```bash
-$ npm install npm-stats -g
+$ npm install npm-stats-cli -g
 ```
 
 ## Usage
