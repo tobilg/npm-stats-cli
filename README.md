@@ -13,7 +13,13 @@ $ npm install npm-stats-cli -g
 
 ## Usage
 
-### Getting help
+### Chart example 
+![Chart stats](docs/images/npm-stats-0.png)
+
+### TSV example
+![TSV stats](docs/images/npm-stats-1.png)
+
+### Command overview
 
 By typing 
 
